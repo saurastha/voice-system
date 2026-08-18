@@ -1,0 +1,756 @@
+{
+  "name": "The Winston Hotel",
+  "also_known_as": ["The Winston", "The Winston Winston Hills"],
+  "tagline": "Eat. Drink. Play. Repeat.",
+  "description": "The Winston is a hotel venue in Winston Hills, Sydney, featuring CALA (a modern Australian bistro), Taffy's Sports Bar, a beer garden, a bottle shop, and eight event/function spaces, all under one roof.",
+  "website": "https://thewinston.com.au/",
+  "cuisine_type": "Modern Australian / Pub food",
+  "price_range": "$$ (mid-range, mains roughly $25-$45, steaks up to $71)",
+
+  "address": {
+    "street": "170 Caroline Chisholm Drive",
+    "suburb": "Winston Hills",
+    "state": "NSW",
+    "postcode": "2153",
+    "country": "Australia",
+    "full_address": "170 Caroline Chisholm Drive, Winston Hills NSW 2153, Australia"
+  },
+
+  "geo": {
+    "latitude": -33.773682,
+    "longitude": 150.9714318
+  },
+
+  "contact": {
+    "phone": "02 9624 4500",
+    "phone_international": "+61 2 9624 4500",
+    "fax": "02 9838 8418",
+    "email": "info@thewinston.com.au"
+  },
+
+  "hours": {
+    "general": {
+      "thursday": "10:00am - 3:00am",
+      "friday": "10:00am - 3:00am",
+      "saturday": "10:00am - 3:00am",
+      "sunday": "10:00am - 12:00am (midnight)",
+      "monday": "10:00am - 12:00am (midnight)",
+      "tuesday": "10:00am - 12:00am (midnight)",
+      "wednesday": "10:00am - 12:00am (midnight)",
+      "notes": "Open 7 days a week. An older listing on the Taffy's page shows slightly different hours (Mon-Wed 10am-12am, Thu 10am-3am, Fri-Sat 10am-3am, Sun 10am-10pm); the hours above, from the homepage and FAQ page, are the current primary listing."
+    },
+    "bottle_shop": {
+      "monday_to_saturday": "10:00am - 11:45pm",
+      "sunday": "10:00am - 9:45pm"
+    },
+    "kitchen_note": "Kitchen/food service hours may differ slightly from bar trading hours; an older reference lists food service Mon-Thu 11:30am-9:30pm, Fri-Sat 11:30am-10pm, Sun 11:30am-9pm. Confirm exact current kitchen close times with the venue."
+  },
+
+  "parking_and_transport": {
+    "parking": "Yes, free on-site parking in front of the venue.",
+    "public_transport": "Bus stops within a short walk. Closest train stations are Parramatta and Seven Hills, both about 10 minutes away by car."
+  },
+
+  "booking_policy": {
+    "reservations_recommended": true,
+    "reservations_required_note": "Bookings are recommended to avoid disappointment; for Friday and Saturday nights, bookings are strongly recommended as the venue books out. Walk-ins are welcome on other days and staff will find you a table.",
+    "large_groups": "Groups of 20 or more should enquire via the Functions enquiry form so the room can be set up properly; smaller groups can book normally.",
+    "cancellation_policy": "Table bookings can be cancelled up to 2 hours in advance via the confirmation email.",
+    "booking_url": "https://bookings.obeeapp.com/thewinston"
+  },
+
+  "venues": [
+    {
+      "name": "CALA Bistro",
+      "type": "Modern Australian Bistro",
+      "description": "The Winston's bistro. Modern Australian, made for sharing. Shared plates, wood-fired pizza, steak off the grill, and a tight but considered wine list.",
+      "menu_pdf_url": "https://thewinston.com.au/wp-content/uploads/2026/06/Winter_2026_01_cala.pdf",
+      "menu_version": "Winter 2026"
+    },
+    {
+      "name": "Taffy's Sports Bar",
+      "type": "Sports Bar",
+      "description": "The Winston's sports bar - full of character, loud, and set up for match day. Huge screens plus booths with personal screens for watching your own game. Wood-fired pizzas are noted as the perfect food for sport.",
+      "features": [
+        "Multiple large screens",
+        "Personal screens in booths",
+        "Live sport on multiple screens",
+        "Trivia nights (bookable)"
+      ],
+      "menu_pdf_url": "https://thewinston.com.au/wp-content/uploads/2026/06/Taffys-Menu_2026-WInter.pdf",
+      "menu_version": "Winter 2026",
+      "menu_description": "Pub classics done properly. Schnitty, burgers, loaded fries, parma that's earned its name. Built for match day and long afternoons."
+    },
+    {
+      "name": "Beer Garden",
+      "type": "Beer Garden",
+      "description": "Sunshine, schooners, and long lunches. Pet-friendly, kid-friendly, and Sunday-session-friendly."
+    },
+    {
+      "name": "Bottle Shop",
+      "type": "Retail liquor store",
+      "hours": {
+        "monday_to_saturday": "10:00am - 11:45pm",
+        "sunday": "10:00am - 9:45pm"
+      }
+    },
+    {
+      "name": "Function & Event Spaces",
+      "type": "Events & Functions",
+      "description": "Eight distinct spaces with capacity for functions ranging from 10 to 150 guests. Space hire is free of charge, with a minimum spend on food and beverages required instead.",
+      "capacity_min": 10,
+      "capacity_max": 150,
+      "pricing_model": "Free venue hire; minimum spend on food & beverage required",
+      "event_types": [
+        "Birthday",
+        "Anniversary",
+        "Wedding",
+        "Engagement",
+        "Celebration",
+        "Business",
+        "Other/custom events"
+      ],
+      "features": [
+        "Fully equipped, state-of-the-art bar",
+        "Natural light and open plan areas",
+        "High-ceiling Pavilion event space",
+        "Plenty of photo backdrops"
+      ],
+      "enquiry_note": "Enquiries can be made via the Functions enquiry form on the website, including event type and date."
+    }
+  ],
+
+  "weekly_specials": {
+    "note": "Also referred to as 'What's On'. Days run according to the venue's trading calendar.",
+    "monday": "Frites / Steak Frites - $25, 200g steak with fries",
+    "tuesday": "Taco Tuesday - $20 for any 2 tacos",
+    "wednesday": "Katsu Wednesday - $25 Katsu Chicken Curry",
+    "thursday": "Burger Thursday - $19 Double Dipped Burger (burger only)",
+    "friday": "Aperitivo Hours",
+    "saturday": "Taffy's Happy Hour 12pm-4pm, with live music till late",
+    "sunday": "Sunday Roast - Roast of the Day, pork and beef available",
+    "exclusions": "Weekly specials typically exclude public holidays"
+  },
+
+  "happy_hour": {
+    "monday_to_friday": "4:00pm - 6:00pm",
+    "saturday": "12:00pm - 4:00pm",
+    "pricing": "$8 schooners, $21 per jug (beer on tap, ask bar for current tap list)",
+    "exclusions": "Excludes public holidays"
+  },
+
+  "menu": {
+    "menu_version": "Winter 2026",
+    "dietary_legend": {
+      "v": "vegetarian",
+      "vg_or_ve": "vegan",
+      "gf": "gluten free",
+      "i": "imported ingredient",
+      "A": "Australian ingredient/produce"
+    },
+    "note_on_pricing": "Exact per-dish prices are listed on the source PDF menus but are not reliably machine-extractable line-by-line due to PDF layout. The price ranges below are accurate for each category; for an exact single-dish price, direct the customer to call the venue on 02 9624 4500 or view the PDF menu links provided.",
+
+    "categories": [
+      {
+        "category": "Starters & Share",
+        "price_range": "$12 - $29",
+        "items": [
+          { "name": "Garlic, Herb or Chilli Bread", "dietary": [] },
+          {
+            "name": "Bruschetta",
+            "description": "House smoked tomatoes, feta cheese, pickled onions & herb oil",
+            "dietary": ["v"]
+          },
+          {
+            "name": "Freshly Baked Cala Mozzarella Bread",
+            "description": "With olive tapenade",
+            "dietary": ["v"]
+          },
+          {
+            "name": "Burrata",
+            "description": "Grilled pita bread, pomegranate, pistachios & orange marmalade",
+            "dietary": ["v"]
+          },
+          {
+            "name": "Tempura Zucchini Flowers (3)",
+            "description": "Ricotta, honey & parmesan",
+            "dietary": ["v"]
+          },
+          {
+            "name": "Poutine",
+            "description": "Loaded fries with cheese, shallots, chilli & gravy",
+            "dietary": ["v"]
+          },
+          {
+            "name": "Mezze Plate",
+            "description": "Baba ghanoush, pimento & cashew mezze, chilli & olives",
+            "dietary": ["vg"]
+          },
+          {
+            "name": "Salt & Pepper Squid",
+            "description": "Crushed cucumber, crispy chilli oil, mint, coriander, sesame, peanut & soy dressing",
+            "dietary": ["i"]
+          },
+          {
+            "name": "Fried Chicken (pieces)",
+            "description": "Frank's hot sauce, fried garlic, chipotle mayo & coriander",
+            "dietary": []
+          },
+          {
+            "name": "Korean Style Chicken Wings",
+            "description": "Toasted sesame seeds, granulated peanuts & shallots",
+            "dietary": []
+          },
+          { "name": "Bucket of Wings", "price": 27, "dietary": [] },
+          {
+            "name": "Seafood Chowder",
+            "description": "In a sourdough cob with a garlic bread lid",
+            "dietary": ["i"]
+          }
+        ]
+      },
+      {
+        "category": "Oysters",
+        "price_note": "Sold half dozen / dozen",
+        "items": [
+          {
+            "name": "Fresh Natural Sydney Rock Oysters - Shallot & Red Wine Vinaigrette",
+            "dietary": ["gf", "A"],
+            "pricing": { "half_dozen": 31, "dozen": 54 }
+          },
+          { "name": "Oysters Kilpatrick", "dietary": ["A"] }
+        ]
+      },
+      {
+        "category": "Lighter / Salads",
+        "price_range": "$29 - $32",
+        "items": [
+          {
+            "name": "Thai Coconut Chicken Salad",
+            "description": "Cucumber, carrot, bean sprouts, mint, coriander, green leaves, chilli, soy glaze & lime dressing",
+            "dietary": ["gf"]
+          },
+          {
+            "name": "Poached Salmon Nicoise Salad",
+            "description": "Gem lettuce, chat potatoes, beans, pickled onions, soft boiled egg, cherry tomatoes, olives, green beans, anchovies & vinaigrette",
+            "dietary": ["gf", "A"]
+          },
+          {
+            "name": "Nourish Bowl",
+            "description": "Rice, smashed avocado, edamame, cucumber, charred corn salsa, Mediterranean spiced cauliflower, seaweed & roasted beetroot",
+            "dietary": ["vg", "gf"]
+          }
+        ]
+      },
+      {
+        "category": "The Classics",
+        "price_range": "$25 - $30",
+        "items": [
+          {
+            "name": "Beer Battered Australian Flathead Fillets",
+            "description": "Salad, fries, lemon & house tartare",
+            "dietary": ["A"]
+          },
+          {
+            "name": "The Steak Sandwich",
+            "description": "Rocket, aioli, tomato, caramelised onions & fries",
+            "dietary": []
+          },
+          {
+            "name": "Grilled Haloumi & Roasted Eggplant Burger",
+            "description": "Caramelised onions, rocket, tomato, aioli, fries",
+            "dietary": ["v"]
+          },
+          {
+            "name": "\"Winsto\" Burger",
+            "description": "American cheese, smoked bacon, pickled onions, french mustard, smokey bbq, gherkins, fries",
+            "dietary": []
+          },
+          {
+            "name": "Southern Fried Chicken Burger",
+            "description": "House slaw, chilli mayo, fries",
+            "dietary": []
+          },
+          {
+            "name": "Herbed Crumbed Chicken Breast Schnitzel",
+            "description": "Dusted with parmesan, slaw & gravy",
+            "dietary": []
+          },
+          {
+            "name": "Chicken Schnitzel",
+            "description": "Slaw, fries, lemon & gravy",
+            "dietary": []
+          },
+          {
+            "name": "Chicken Parmigiana",
+            "description": "Tomato sugo, basil, mozzarella & fries",
+            "dietary": []
+          },
+          {
+            "name": "Grilled Cumberland Pork Sausages",
+            "description": "Creamy mash, caramelised onions & gravy",
+            "dietary": ["gf"]
+          }
+        ]
+      },
+      {
+        "category": "The Grill / Steaks",
+        "price_range": "$29 - $71",
+        "note": "All steaks served with chips & salad or veg & mash, and a choice of sauce.",
+        "items": [
+          { "name": "Rump Cap 250g", "dietary": [] },
+          { "name": "Scotch Fillet 300g", "dietary": [] },
+          {
+            "name": "Ribeye on the Bone 400g",
+            "description": "Roasted potatoes, green beans & grilled bone marrow",
+            "dietary": []
+          },
+          {
+            "name": "Eye Fillet 200g",
+            "description": "Portobello mushrooms, creamy mash, green beans & diane sauce",
+            "dietary": []
+          }
+        ],
+        "sauce_choices": [
+          "Mushroom & seeded mustard cream sauce (gf)",
+          "Diane sauce",
+          "Classic gravy (gf)",
+          "Chimichurri (gf)",
+          "Green peppercorn sauce (gf)",
+          "Bearnaise (gf)",
+          "Red wine jus (gf)"
+        ]
+      },
+      {
+        "category": "Tacos",
+        "price_note": "2 per serve",
+        "items": [
+          {
+            "name": "Fish Tacos",
+            "description": "Battered flathead, slaw, coriander, chilli, chipotle & corn salsa",
+            "dietary": ["A"]
+          },
+          {
+            "name": "Pulled Pork Tacos",
+            "description": "Pineapple salsa, slaw, mint, coriander, chilli & chipotle",
+            "dietary": []
+          }
+        ]
+      },
+      {
+        "category": "Mussels",
+        "price_note": "1kg pot, served with fries, grilled rosemary bread & Dijon mustard mayonnaise. Sold half dozen / dozen style pricing tiers.",
+        "pricing": { "half_dozen": 34, "dozen": 56 },
+        "items": [
+          { "name": "Provencale Mussels", "dietary": ["A"] },
+          {
+            "name": "White Wine Mussels",
+            "description": "Cooked with celery, onions, garlic & white wine",
+            "dietary": ["A"]
+          }
+        ]
+      },
+      {
+        "category": "Mains",
+        "price_range": "$29 - $44",
+        "items": [
+          {
+            "name": "Slow Cooked Lamb Shank",
+            "description": "Sweet potato puree, sauteed spinach & jus",
+            "dietary": ["gf"]
+          },
+          {
+            "name": "Dukkah Spiced Cauliflower Steak",
+            "description": "Pistachios, walnuts, tahini, dried currants, pomegranates, capers salsa, cauliflower puree",
+            "dietary": ["gf", "vg"]
+          },
+          {
+            "name": "Braised Beef Cheek",
+            "description": "Creamy mash, dutch carrots, gremolata & jus",
+            "dietary": ["gf"]
+          },
+          {
+            "name": "Angel Hair Prawn Pasta",
+            "description": "Chilli, garlic, shallots, cherry tomatoes & rocket",
+            "dietary": ["i"]
+          },
+          {
+            "name": "Sri Lankan Style Barramundi Fillet Curry",
+            "description": "Rice, roasted sweet potato, cucumber, coriander & chilli",
+            "dietary": ["gf", "A"]
+          },
+          {
+            "name": "Grilled Salmon",
+            "description": "Smashed kipfler potatoes, bok choy, hoisin glaze & petite asian salad",
+            "dietary": ["gf", "A"]
+          }
+        ]
+      },
+      {
+        "category": "Pizza (Wood-fired)",
+        "price_range": "$29 - $32",
+        "note": "Gluten free bases available.",
+        "items": [
+          {
+            "name": "Pork & Fennel Sausage Pizza",
+            "description": "Spinach, chilli flakes, garnished with fresh ricotta & basil"
+          },
+          {
+            "name": "Spicy Mexican Beef Pizza",
+            "description": "Ground beef, jalapeno, corn salsa, guacamole, sour cream, diced tomatoes & corn chips"
+          },
+          {
+            "name": "Ham & Mushroom Pizza",
+            "description": "Black olives, anchovies, garnished with basil pesto & parsley"
+          },
+          {
+            "name": "Tandoori Chicken Pizza",
+            "description": "Garnished with mango chutney, herbed yoghurt, cashew nuts & coriander"
+          },
+          {
+            "name": "Roasted Pumpkin Pizza",
+            "description": "Sauteed spinach, caramelised onions, candied walnuts, topped with goats cheese",
+            "dietary": ["v"]
+          },
+          {
+            "name": "Prosciutto Pizza",
+            "description": "Garnished with rocket, parmesan & balsamic dressing"
+          },
+          {
+            "name": "Picante Gamba Pizza",
+            "description": "Chorizo, prawns, onions, roasted capsicums, bacon, jalapenos, garnished with parsley",
+            "dietary": ["i"]
+          },
+          {
+            "name": "Seafood Pizza",
+            "description": "Prawns, squid, garnished with aioli, furikake & shallots",
+            "dietary": ["i"]
+          },
+          {
+            "name": "Margarita Pizza",
+            "description": "Tomato & cheese base topped with buffalo mozzarella & basil",
+            "dietary": ["v"]
+          }
+        ]
+      },
+      {
+        "category": "Kids Menu",
+        "age_limit": "12 years and under",
+        "includes": "Comes with an activity pack and ice-cream",
+        "price": 16,
+        "items": [
+          { "name": "Cheeseburger with fries" },
+          { "name": "Nuggets with fries" },
+          { "name": "Chicken Schnitzel with fries" },
+          {
+            "name": "Crispy Fish & Chips",
+            "dietary": ["A"],
+            "note": "Can swap fries for mash or veg"
+          }
+        ]
+      },
+      {
+        "category": "Desserts",
+        "price_range": "$14 - $16",
+        "items": [
+          {
+            "name": "Sticky Date Pudding",
+            "description": "Butterscotch sauce, caramel gelato"
+          },
+          {
+            "name": "Warm Apple Strudel",
+            "description": "With custard & mixed berries compote"
+          },
+          {
+            "name": "Warm Chocolate Fondant",
+            "description": "Hazelnut praline, coconut gelato"
+          },
+          {
+            "name": "Homemade Lemon Cake",
+            "description": "Served with coconut gelato & lemon icing mix"
+          },
+          {
+            "name": "Mixed Sorbet",
+            "description": "Blood orange, mango & lemon",
+            "dietary": ["vg", "gf"]
+          }
+        ]
+      },
+      {
+        "category": "Sides",
+        "price_range": "$10 - $16",
+        "items": [
+          { "name": "Fries with garlic aioli", "dietary": ["v"] },
+          {
+            "name": "Garden Salad",
+            "description": "Tomatoes, onions & cucumbers",
+            "dietary": ["v"]
+          },
+          { "name": "Winsto Slaw", "dietary": ["v"] },
+          { "name": "Creamy Mash", "dietary": ["v", "gf"] },
+          {
+            "name": "Steamed Seasonal Veggies",
+            "description": "With herb butter",
+            "dietary": ["v", "gf"]
+          },
+          { "name": "Roasted Bone Marrow", "dietary": ["gf"] },
+          {
+            "name": "Roasted Brussel Sprouts",
+            "description": "With bacon, slivered almond, maple syrup and parsley",
+            "dietary": ["gf"]
+          }
+        ]
+      }
+    ]
+  },
+
+  "drinks_menu": {
+    "wine_list": {
+      "sparkling": [
+        "Woodbrook Farm Brut Cuvee NV - Australia",
+        "Mio Cappello Prosecco - King Valley, VIC",
+        "La Gioiosa Prosecco Superiore DOCG - Veneto, Italy",
+        "Piper Heidsieck Cuvee Brut NV - Reims, France",
+        "Deakin Estate Azahara Sparkling 200ml - Riverina"
+      ],
+      "white": [
+        "Pikes 'Traditionale' Riesling - Clare Valley, SA",
+        "Ara Single Estate Pinot Gris - Marlborough, NZ",
+        "Cantina di Gambellara Monopolio Pinot Grigio DOC - Delle Venezie, Italy",
+        "Pikorua Sauvignon Blanc - Marlborough, NZ",
+        "Gisen 0% Sauvignon Blanc (non-alcoholic) - Marlborough, NZ",
+        "Isabel Estate Sauvignon Blanc - Marlborough, NZ",
+        "Woodbrook Farm Chardonnay - Central Ranges, Australia",
+        "Bimbadgen 'Growers' Chardonnay - Hunter Valley, NSW",
+        "Oakridge Yarra Valley Chardonnay - Yarra Valley, VIC"
+      ],
+      "pink": [
+        "Luna Rosa Rosado Rose - Central Ranges, NSW",
+        "Fiore Pink Moscato - Australia",
+        "Marquis de Pennautier Rose - Languedoc, France"
+      ],
+      "red": [
+        "Ara Single Estate Pinot Noir - Marlborough, NZ",
+        "Yering Station Village Pinot Noir - Yarra Valley, VIC",
+        "Philip Shaw 'The Conductor' Merlot - Orange, NSW",
+        "Valpinzana Montepulciano d'Abruzzo DOC - Abruzzo, Italy",
+        "Woodbrook Farm Shiraz - Central Ranges, Australia",
+        "Four in Hand Shiraz - Barossa, SA",
+        "Bests Bin 1 Shiraz - Great Western, VIC",
+        "Xanadu Circa 77 Cabernet Sauvignon - Margaret River, WA",
+        "Cape Mentelle Cabernet Sauvignon - Margaret River, WA",
+        "Domaine Armand David Cabernet Franc AOP - Loire Valley, France",
+        "Robert Oatley Signature Series Grenache - McLaren Vale, SA",
+        "Hentley Farm Villain & Vixen GSM - Barossa, SA",
+        "Argento Organic Malbec - Mendoza, Argentina"
+      ]
+    },
+    "non_alcoholic_cocktails": [
+      {
+        "name": "Pretty in Pink",
+        "description": "Strawberry pulp, cucumber syrup, fresh lime & mint"
+      },
+      {
+        "name": "Lychee Mockito",
+        "description": "Lychee juice, butterfly pea syrup, mint & lychee"
+      },
+      {
+        "name": "Lyres Agave Margarita",
+        "description": "Lyres Blanco, agave, Lyres orange sec, grapefruit bitters & fresh lime"
+      },
+      {
+        "name": "Hello Maisey",
+        "description": "Lyres orange sec, passionfruit, vanilla, aquafaba & grapefruit bitters"
+      },
+      {
+        "name": "Lyres Salted Caramel Espresso Martini",
+        "description": "Fresh espresso, cold drip coffee, salted caramel"
+      },
+      {
+        "name": "Watermelon Bubble",
+        "description": "Fresh watermelon juice, Monin watermelon, lime & flavoured bubble on top"
+      }
+    ],
+    "no_and_low_beer": [
+      "Heaps Normal Quiet XPA",
+      "Heaps Normal Another Lager",
+      "Great Northern Zero"
+    ],
+    "spritz": [
+      {
+        "name": "Aperol Spritz",
+        "description": "Aperol, prosecco, soda, orange"
+      },
+      {
+        "name": "French Kiss",
+        "description": "Marquis de Pennautier rose, peach, soda"
+      },
+      {
+        "name": "Limoncello Spritz",
+        "description": "Limoncello, prosecco, soda, mint, lemon"
+      },
+      {
+        "name": "Elderflower Gin Spritz",
+        "description": "Bombay dry gin, St. Germain Elderflower, prosecco, watermelon"
+      },
+      {
+        "name": "Mango & Coconut Spritz",
+        "description": "Mango liqueur, coconut, prosecco, soda & lemon"
+      }
+    ],
+    "cala_signature_cocktails": [
+      {
+        "name": "Pavlova Martini",
+        "description": "Grey Goose vodka, limoncello, fresh lemon, passionfruit, white chocolate, vanilla, mango, aquafaba & meringue crown top"
+      },
+      {
+        "name": "The Cala Colada",
+        "description": "Pineapple rum, Malibu, coco Monin, coconut milk foam & chai rim"
+      },
+      {
+        "name": "What-A-Melon!",
+        "description": "Pink gin, St. Germain Elderflower, fresh watermelon & lime, topped with flavoured smoke bubble"
+      }
+    ],
+    "cocktails": [
+      {
+        "name": "Mrs. May",
+        "description": "Vodka, St. Germain Elderflower liqueur, fresh lime, passionfruit, vanilla foam & peach bitters"
+      },
+      {
+        "name": "Coco-Lemon Float",
+        "description": "Limoncello, Licor 43, fresh lemon & coconut foam float"
+      },
+      {
+        "name": "Summer Holiday",
+        "description": "Vodka, tropical rumba, mango, pineapple & passionfruit"
+      },
+      {
+        "name": "Cala Iced Tea",
+        "description": "5 whites, fresh lemon & splash of cola"
+      },
+      {
+        "name": "Patron Classic Margarita",
+        "description": "Patron Silver, mandarin triple sec, simple syrup, lime & salt rim"
+      },
+      {
+        "name": "Passionfruit Margarita",
+        "description": "Tequila blanco, mandarin triple sec, lime & passionfruit"
+      },
+      {
+        "name": "Picante Margarita",
+        "description": "Jalapeno tequila, mandarin triple sec, tabasco, lime & tajin rim"
+      },
+      {
+        "name": "Sunset Mai-Tai",
+        "description": "Bacardi white rum, mandarin triple sec, pineapple, orange, orgeat & lime"
+      },
+      {
+        "name": "Coconut Foam Margarita",
+        "description": "Tequila blanco, Cocody, coco Monin, lychee, toasted coconut dust, lime & homemade coconut foam"
+      },
+      {
+        "name": "The Passionate Botanist",
+        "description": "Bombay dry gin, vanilla, fresh lime, passionfruit foam & star anise"
+      },
+      {
+        "name": "Riviera Amaretto Sour",
+        "description": "Pampelle grapefruit liqueur, amaretto, fresh lime, aquafaba & grapefruit bitters"
+      },
+      {
+        "name": "Grey Goose Espresso Martini",
+        "description": "Grey Goose vodka, Mr Black coffee liqueur, Licor 43, maple syrup & a shot of espresso"
+      },
+      {
+        "name": "Hibiscus & Lychee Fizz",
+        "description": "Hibiscus infused vodka, Lillet Blanc, St. Germain Elderflower & lychee"
+      }
+    ],
+    "beer_on_tap": "Ask the bar for the current tap list. Happy hour schooners $8, jugs $21 (Mon-Fri 4-6pm, Sat 12-4pm, excluding public holidays)."
+  },
+
+  "faqs": [
+    {
+      "category": "Location & Hours",
+      "question": "What are your opening hours?",
+      "answer": "Thursday to Saturday: 10am to 3am. Sunday to Wednesday: 10am to 12am (midnight). Bottle Shop: 10am to 11:45pm (9:45pm on Sunday)."
+    },
+    {
+      "category": "Location & Hours",
+      "question": "Where are you?",
+      "answer": "170 Caroline Chisholm Drive, Winston Hills NSW 2153."
+    },
+    {
+      "category": "Location & Hours",
+      "question": "Is there parking?",
+      "answer": "Yes, free on-site parking in front of the venue."
+    },
+    {
+      "category": "Location & Hours",
+      "question": "Can I catch public transport?",
+      "answer": "The bus stops within a short walk. The closest train stations are Parramatta and Seven Hills, both about 10 minutes away by car."
+    },
+    {
+      "category": "Bookings",
+      "question": "Do I need to book?",
+      "answer": "To avoid disappointment, yes. For Friday and Saturday nights, definitely yes, as the venue books out. Otherwise, walk in and staff will happily find you a table."
+    },
+    {
+      "category": "Bookings",
+      "question": "Can I book for a big group?",
+      "answer": "Groups of 20 or more should enquire via the Functions form so the room can be set up properly. Otherwise, you can book normally."
+    },
+    {
+      "category": "Bookings",
+      "question": "What's your cancellation policy?",
+      "answer": "Table bookings can be cancelled up to 2 hours in advance via the confirmation email."
+    }
+  ],
+
+  "amenities_and_policies": {
+    "pet_friendly": true,
+    "pet_friendly_area": "Beer Garden",
+    "kid_friendly": true,
+    "wheelchair_accessible": "Not stated on website - confirm directly with venue",
+    "gift_cards_available": true,
+    "gift_card_purchase_url": "https://egiftcards.idealpos.com.au/app/egiftcards/8ee633ee-1a16-40ed-843f-e962f9cb6a93?voucherAppId=1",
+    "careers_hiring": true
+  },
+
+  "social_media": {
+    "instagram": {
+      "handle": "@thewinsto",
+      "url": "https://www.instagram.com/thewinsto/"
+    },
+    "facebook": {
+      "url": "https://www.facebook.com/TheWinstonHotel/"
+    }
+  },
+
+  "links": {
+    "menus_page": "https://thewinston.com.au/menus/",
+    "cala_menu_pdf": "https://thewinston.com.au/wp-content/uploads/2026/06/Winter_2026_01_cala.pdf",
+    "taffys_menu_pdf": "https://thewinston.com.au/wp-content/uploads/2026/06/Taffys-Menu_2026-WInter.pdf",
+    "reservations": "https://bookings.obeeapp.com/thewinston",
+    "whats_on": "https://thewinston.com.au/whats-on/",
+    "functions": "https://thewinston.com.au/functions/",
+    "functions_package_pdf": "https://drive.google.com/file/d/17b5TI9XgUUxT0KfMtnePTvf9lw84XDUB/view",
+    "faqs": "https://thewinston.com.au/faqs/",
+    "gift_cards": "https://egiftcards.idealpos.com.au/app/egiftcards/8ee633ee-1a16-40ed-843f-e962f9cb6a93?voucherAppId=1",
+    "careers": "https://thewinston.com.au/careers/",
+    "photo_gallery": "https://thewinston.com.au/photo-gallery/",
+    "directions_google_maps": "https://www.google.com/maps?cid=17365858321087217627",
+    "instagram": "https://www.instagram.com/thewinsto/",
+    "facebook": "https://www.facebook.com/TheWinstonHotel/"
+  },
+
+  "data_notes": {
+    "source": "Extracted from thewinston.com.au on 2026-08-17 (homepage, contact, menus, CALA Bistro, Taffy's Sports Bar, Functions, and FAQ pages, plus current Winter 2026 CALA and Taffy's PDF menus).",
+    "known_gaps": [
+      "Exact single-dish prices are given as category ranges rather than per-item, because the PDF menu text extraction does not reliably line up numbers with dish names - verify an exact price by phone (02 9624 4500) if a customer needs precision.",
+      "Wine and cocktail glass/bottle prices were present in the source PDF but likewise not reliably attributable per item.",
+      "'What's On' weekly graphics (social posts) were referenced on the homepage but specific event details for a given week are not captured here - check the What's On page or social media for the current week.",
+      "Live sports schedule is served via an embedded third-party widget and is not capturable as static text; direct customers to https://thewinston.com.au/taffys-sports-bar/#schedule for what's playing."
+    ]
+  }
+}
