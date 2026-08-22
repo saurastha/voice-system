@@ -1,24 +1,24 @@
 import json
-import os
-
-RESTAURANT_DB_PATH = "data.json"
-BOOKING_DB_PATH = "bookings.json"
+from agent.database import SessionLocal, Booking, RestaurantConfig
 
 
 def get_restaurant_info() -> str:
     """Fetch restaurant operating hours, location, contact details, and daily specials."""
+    db = SessionLocal()
     try:
-        with open(RESTAURANT_DB_PATH, "r") as f:
-            data = json.load(f)
-        return json.dumps(data)
-    except FileNotFoundError:
-        return json.dumps({"info": "Restaurant data file not found."})
+        config = db.query(RestaurantConfig).first()
+        if config and config.info_data:
+            return config.info_data
+        return json.dumps({"info": "Restaurant details currently unavailable."})
+    finally:
+        db.close()
 
 
 class BookingSession:
     """Tracks booking slots per user session to prevent duplicate questions."""
 
     def __init__(self):
+        # We keep the draft in memory! It's lightning fast and tied to this specific caller's WebSocket connection.
         self.draft = {
             "date": None,
             "time": None,
@@ -37,16 +37,8 @@ class BookingSession:
         phone_number: str = None,
         high_chair: str = None,
     ) -> str:
-        """Call this tool WHENEVER the guest provides ANY booking details.
+        """Call this tool WHENEVER the guest provides ANY booking details."""
 
-        Args:
-            date: Date of booking (e.g., 'Today', 'Tomorrow', 'Friday', '2026-08-20')
-            time: Time of booking (e.g., '7 PM', '19:30')
-            party_size: Number of people/guests (e.g., 2, 4)
-            guest_name: Full name of the guest
-            phone_number: Contact phone number
-            high_chair: High chair requirement ('yes', 'no', or 'not needed')
-        """
         if date:
             self.draft["date"] = date
         if time:
@@ -82,21 +74,29 @@ class BookingSession:
         if missing:
             return f"CANNOT BOOK YET. Missing required details: {missing}."
 
+        db = SessionLocal()
         try:
-            if os.path.exists(BOOKING_DB_PATH):
-                with open(BOOKING_DB_PATH, "r") as f:
-                    data = json.load(f)
-            else:
-                data = []
-        except Exception:
-            data = []
+            new_booking = Booking(
+                date=self.draft["date"],
+                time=self.draft["time"],
+                party_size=self.draft["party_size"],
+                guest_name=self.draft["guest_name"],
+                phone_number=self.draft["phone_number"],
+                high_chair=self.draft["high_chair"],
+            )
 
-        data.append(self.draft.copy())
+            db.add(new_booking)
+            db.commit()
 
-        with open(BOOKING_DB_PATH, "w") as f:
-            json.dump(data, f, indent=4)
+            booking_id = new_booking.id
 
-        return (
-            f"SUCCESS: Table booked for {self.draft['guest_name']} "
-            f"on {self.draft['date']} at {self.draft['time']} for {self.draft['party_size']} guests."
-        )
+            return (
+                f"SUCCESS: Table booked for {self.draft['guest_name']} "
+                f"on {self.draft['date']} at {self.draft['time']} for {self.draft['party_size']} guests. "
+                f"Confirmation number is #{booking_id}."
+            )
+        except Exception as e:
+            db.rollback()
+            return f"ERROR: Could not save the booking due to a database error: {e}"
+        finally:
+            db.close()
