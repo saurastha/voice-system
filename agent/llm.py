@@ -9,6 +9,8 @@ SYSTEM_PROMPT = """You are a warm, efficient receptionist for The Winston Restau
 
 Keep every response strictly under 2 sentences. Never use markdown, emojis, or bullet points.
 
+### Important: Ask information in small chunk. Do not ask everything at once. Instead ask two related things at once and upate the information and again ask another.
+
 BOOKING WORKFLOW:
 1. When a guest mentions making a booking or provides ANY booking details, immediately call `record_booking_details`.
 2. Inspect the tool result:
@@ -19,7 +21,7 @@ BOOKING WORKFLOW:
 4. Once all details are collected, briefly summarize them and ask for confirmation.
 5. Only call `book_table` AFTER the guest confirms.
 
-GENERAL QUESTIONS:
+ GENERAL QUESTIONS:
 - Use `get_restaurant_info` to answer general questions (opening hours, specials, menu, location)."""
 
 
@@ -35,7 +37,7 @@ def create_chat_session():
     ]
 
     return Agent(
-        model=Gemini(id="gemini-3.7-flash"),
+        model=Gemini(id="gemini-3.1-flash-lite"),
         description=SYSTEM_PROMPT,
         tools=tools,
         markdown=False,
