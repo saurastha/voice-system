@@ -13,3 +13,12 @@ repos:
       - id: ruff
         args: [--fix]
       - id: ruff-format
+
+  - repo: local
+    hooks:
+      - id: auto-stage
+        name: Auto-stage formatted files
+        entry: git add -u
+        language: system
+        stages: [pre-commit]
+        always_run: true
